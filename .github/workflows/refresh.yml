@@ -1,0 +1,48 @@
+name: Refresh profile
+
+on:
+  schedule:
+    - cron: "45 16 * * *" # 00:45 Singapore time
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["gen/**"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Fetch the numbers
+        env:
+          # CONTRIB_TOKEN (optional, a personal token) also counts private contributions;
+          # without it the workflow's own token sees public ones.
+          GITHUB_TOKEN: ${{ secrets.CONTRIB_TOKEN || secrets.GITHUB_TOKEN }}
+        run: node gen/live.mjs
+
+      - name: Draw the SVGs
+        run: node gen/build.mjs
+
+      - name: Commit if changed
+        run: |
+          git add assets gen/data
+          if git diff --cached --quiet; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh profile numbers"
+          git push

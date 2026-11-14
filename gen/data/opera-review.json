@@ -1,0 +1,3115 @@
+{
+ "opening": {
+  "eco": "C41",
+  "name": "Philidor Defense"
+ },
+ "accuracy": {
+  "w": 94.9,
+  "b": 75.2
+ },
+ "classes": {
+  "brilliant": {
+   "label": "Brilliant",
+   "symbol": "!!",
+   "color": "#1fc0a8"
+  },
+  "great": {
+   "label": "Great",
+   "symbol": "!",
+   "color": "#5b8fd6"
+  },
+  "best": {
+   "label": "Best",
+   "symbol": "★",
+   "color": "#86b93f"
+  },
+  "excellent": {
+   "label": "Excellent",
+   "symbol": "👍",
+   "color": "#9cc24a"
+  },
+  "good": {
+   "label": "Good",
+   "symbol": "✓",
+   "color": "#86a96a"
+  },
+  "book": {
+   "label": "Book",
+   "symbol": "📖",
+   "color": "#b08d64"
+  },
+  "inaccuracy": {
+   "label": "Inaccuracy",
+   "symbol": "?!",
+   "color": "#f2c13a"
+  },
+  "mistake": {
+   "label": "Mistake",
+   "symbol": "?",
+   "color": "#ef8f2f"
+  },
+  "miss": {
+   "label": "Miss",
+   "symbol": "✕",
+   "color": "#e86a6a"
+  },
+  "blunder": {
+   "label": "Blunder",
+   "symbol": "??",
+   "color": "#e0362f"
+  },
+  "forced": {
+   "label": "Forced",
+   "symbol": "→",
+   "color": "#9aa3ad"
+  }
+ },
+ "moves": [
+  {
+   "story": {
+    "headline": "1.e4 is opening theory: King's Pawn Game (B00).",
+    "points": [
+     {
+      "text": "Opens a line for the queen on d1.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d1",
+         "to": "e2",
+         "tone": "opportunity",
+         "thin": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ],
+    "opening": []
+   },
+   "ply": 1,
+   "san": "e4",
+   "uci": "e2e4",
+   "cls": "book",
+   "label": "Book",
+   "color": "#b08d64",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 17
+   },
+   "best": "e4",
+   "acc": 91.69346976118673
+  },
+  {
+   "story": {
+    "headline": "1…e5 is opening theory: King's Pawn Game (C20).",
+    "points": [
+     {
+      "text": "Opens a line for the queen on d8.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d8",
+         "to": "e7",
+         "tone": "opportunity",
+         "thin": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ],
+    "opening": []
+   },
+   "ply": 2,
+   "san": "e5",
+   "uci": "e7e5",
+   "cls": "book",
+   "label": "Book",
+   "color": "#b08d64",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 22
+   },
+   "best": "e5",
+   "acc": 97.95566761712597
+  },
+  {
+   "story": {
+    "headline": "2.Nf3 is opening theory: King's Knight Opening (C40).",
+    "points": [
+     {
+      "text": "Attacks the e5 pawn, which is undefended.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "e5",
+         "tone": "danger",
+         "style": "ring"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "f3",
+         "to": "e5",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Develops the knight, bringing another piece into the game.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ],
+    "opening": []
+   },
+   "ply": 3,
+   "san": "Nf3",
+   "uci": "g1f3",
+   "cls": "book",
+   "label": "Book",
+   "color": "#b08d64",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 33
+   },
+   "best": "Nf3",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "2…d6 is opening theory: Philidor Defense (C41).",
+    "points": [
+     {
+      "text": "Protects the e5 pawn, which was hanging.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "e5",
+         "tone": "info",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Opens a line for the bishop on c8.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "c8",
+         "to": "d7",
+         "tone": "opportunity",
+         "thin": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ],
+    "opening": []
+   },
+   "ply": 4,
+   "san": "d6",
+   "uci": "d7d6",
+   "cls": "book",
+   "label": "Book",
+   "color": "#b08d64",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 47
+   },
+   "best": "Nc6",
+   "acc": 94.40037276614105
+  },
+  {
+   "story": {
+    "headline": "3.d4 is opening theory: Philidor Defense (C41).",
+    "points": [
+     {
+      "text": "A pawn break: it challenges the e5 pawn to open lines.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d4",
+         "to": "e5",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Opens a line for the bishop on c1.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "c1",
+         "to": "d2",
+         "tone": "opportunity",
+         "thin": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ],
+    "opening": []
+   },
+   "ply": 5,
+   "san": "d4",
+   "uci": "d2d4",
+   "cls": "book",
+   "label": "Book",
+   "color": "#b08d64",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 53
+   },
+   "best": "d4",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "3…Bg4 is opening theory: Philidor Defense (C41).",
+    "points": [
+     {
+      "text": "Pins the knight on f3 to the queen.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "f3",
+         "tone": "danger",
+         "style": "ring"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "g4",
+         "to": "d1",
+         "tone": "opportunity",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Develops the bishop, bringing another piece into the game.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ],
+    "opening": []
+   },
+   "ply": 6,
+   "san": "Bg4",
+   "uci": "c8g4",
+   "cls": "book",
+   "label": "Book",
+   "color": "#b08d64",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 107
+   },
+   "best": "exd4",
+   "acc": 80.32160917614111
+  },
+  {
+   "story": {
+    "headline": "4.dxe5 is opening theory: Philidor Defense (C41).",
+    "points": [
+     {
+      "text": "Takes the pawn on e5.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "e5",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Moving away uncovers the queen on d1, which now hits the d6 pawn.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "d4",
+         "tone": "opportunity",
+         "style": "dashed"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "d1",
+         "to": "d6",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ],
+    "opening": []
+   },
+   "ply": 7,
+   "san": "dxe5",
+   "uci": "d4e5",
+   "cls": "book",
+   "label": "Book",
+   "color": "#b08d64",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 99
+   },
+   "best": "dxe5",
+   "acc": 96.85707556187211
+  },
+  {
+   "story": {
+    "headline": "4…Bxf3 is good: Black keeps 38% winning chances (best was Nc6, 41%).",
+    "points": [
+     {
+      "text": "Takes the knight on f3.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "f3",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 5.Qxf3 dxe5 6.Bc4 Qf6 (+1.32).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d1",
+         "to": "f3",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn1qkbnr/ppp2ppp/3p4/4P3/4P3/5b2/PPP2PPP/RNBQKB1R w KQkq - 0 5",
+       "pv": [
+        "d1f3",
+        "d6e5",
+        "f1c4",
+        "d8f6",
+        "f3b3",
+        "b8d7",
+        "b3b7",
+        "a8b8",
+        "b7a6",
+        "f6a6",
+        "c4a6",
+        "d7c5",
+        "a6d3",
+        "c5d3",
+        "c2d3",
+        "g8e7",
+        "b1d2",
+        "e7c6",
+        "d2c4",
+        "b8d8",
+        "e1e2",
+        "c6d4",
+        "e2d1",
+        "d4c6",
+        "c1e3"
+       ],
+       "label": "5.Qxf3 dxe5 6.Bc4 Qf6"
+      }
+     }
+    ],
+    "better": {
+     "san": "Nc6",
+     "pv": [
+      "b8c6",
+      "e5d6",
+      "f8d6",
+      "h2h3",
+      "g4h5",
+      "f1b5",
+      "g8e7",
+      "b1c3",
+      "e8g8",
+      "e1g1",
+      "h7h6",
+      "b5e2",
+      "d8e8",
+      "g2g4"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "b8",
+        "to": "c6",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 8,
+   "san": "Bxf3",
+   "uci": "g4f3",
+   "cls": "good",
+   "label": "Good",
+   "color": "#86a96a",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 132
+   },
+   "best": "Nc6",
+   "acc": 87.74794425515503
+  },
+  {
+   "story": {
+    "headline": "5.Qxf3 is the engine's top choice.",
+    "points": [
+     {
+      "text": "Takes the bishop on f3.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "f3",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Moves the attacked queen to safety.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d1",
+         "to": "f3",
+         "tone": "info"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 5…dxe5 6.Qb3 Bc5 7.Bc4 (+1.82).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d6",
+         "to": "e5",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn1qkbnr/ppp2ppp/3p4/4P3/4P3/5Q2/PPP2PPP/RNB1KB1R b KQkq - 0 5",
+       "pv": [
+        "d6e5",
+        "f3b3",
+        "f8c5",
+        "f1c4",
+        "d8f6",
+        "e1g1",
+        "b8d7",
+        "b1c3",
+        "e8c8",
+        "c4f7",
+        "c8b8",
+        "f7d5",
+        "c5b6",
+        "c3a4",
+        "g8e7",
+        "a4b6",
+        "d7b6",
+        "d5e6"
+       ],
+       "label": "5…dxe5 6.Qb3 Bc5 7.Bc4"
+      }
+     }
+    ]
+   },
+   "ply": 9,
+   "san": "Qxf3",
+   "uci": "d1f3",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 182
+   },
+   "best": "Qxf3",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "5…dxe5 is the engine's top choice.",
+    "points": [
+     {
+      "text": "Takes the pawn on e5.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "e5",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Takes f4 away from the White queen on f3.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "f4",
+         "tone": "danger",
+         "style": "pit"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "e5",
+         "to": "f4",
+         "tone": "opportunity",
+         "thin": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 6.Qb3 Nd7 7.Bc4 Qf6 (+1.42).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "f3",
+         "to": "b3",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn1qkbnr/ppp2ppp/8/4p3/4P3/5Q2/PPP2PPP/RNB1KB1R w KQkq - 0 6",
+       "pv": [
+        "f3b3",
+        "b8d7",
+        "f1c4",
+        "d8f6",
+        "b3b7",
+        "a8b8",
+        "b7a6",
+        "f6a6",
+        "c4a6",
+        "d7c5",
+        "a6d3",
+        "c5d3",
+        "c2d3",
+        "g8e7",
+        "b1d2",
+        "e7c6",
+        "d2f3"
+       ],
+       "label": "6.Qb3 Nd7 7.Bc4 Qf6"
+      }
+     }
+    ]
+   },
+   "ply": 10,
+   "san": "dxe5",
+   "uci": "d6e5",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 142
+   },
+   "best": "dxe5",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "6.Bc4 is excellent: White keeps 62% winning chances (best was Qb3, 63%).",
+    "points": [
+     {
+      "text": "Adds a decisive attacker on the f7 pawn: 2 attackers against 1 defender.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "f7",
+         "tone": "danger",
+         "style": "ring"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "f3",
+         "to": "f7",
+         "tone": "opportunity",
+         "thin": true
+        },
+        {
+         "from": "c4",
+         "to": "f7",
+         "tone": "opportunity",
+         "thin": false
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Develops the bishop, bringing another piece into the game.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 6…Qf6 7.Qb3 Nd7 8.Qxb7 (+1.31).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d8",
+         "to": "f6",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn1qkbnr/ppp2ppp/8/4p3/2B1P3/5Q2/PPP2PPP/RNB1K2R b KQkq - 1 6",
+       "pv": [
+        "d8f6",
+        "f3b3",
+        "b8d7",
+        "b3b7",
+        "a8b8",
+        "b7a6",
+        "f6a6",
+        "c4a6",
+        "d7c5",
+        "a6d3",
+        "g8e7",
+        "b1d2",
+        "e7c6"
+       ],
+       "label": "6…Qf6 7.Qb3 Nd7 8.Qxb7"
+      }
+     }
+    ],
+    "better": {
+     "san": "Qb3",
+     "pv": [
+      "f3b3",
+      "b8d7",
+      "f1c4",
+      "d8f6",
+      "b3b7",
+      "a8b8",
+      "b7a6",
+      "f6a6",
+      "c4a6",
+      "d7c5",
+      "a6d3",
+      "c5d3",
+      "c2d3",
+      "g8e7",
+      "b1d2",
+      "e7c6",
+      "d2f3"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "f3",
+        "to": "b3",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 11,
+   "san": "Bc4",
+   "uci": "f1c4",
+   "cls": "excellent",
+   "label": "Excellent",
+   "color": "#9cc24a",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 131
+   },
+   "best": "Qb3",
+   "acc": 95.81449916278501
+  },
+  {
+   "story": {
+    "headline": "6…Nf6 is a mistake: Black's winning chances go from 38% to 26%.",
+    "points": [
+     {
+      "text": "White answers 7.Qb3, which attacks the b7 pawn, which is undefended.",
+      "tone": "danger",
+      "evidence": "engine",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b7",
+         "tone": "danger",
+         "style": "ring"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "b3",
+         "to": "b7",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "After Qb3, White wins 1 point of material within 7 moves.",
+      "tone": "danger",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Better was 6…Qf6 (+1.31): shores up the f7 pawn, which was under as much attack as it had defence (1 against 1).",
+      "tone": "opportunity",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d8",
+         "to": "f6",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn1qkbnr/ppp2ppp/8/4p3/2B1P3/5Q2/PPP2PPP/RNB1K2R b KQkq - 1 6",
+       "pv": [
+        "d8f6",
+        "f3b3",
+        "b8d7",
+        "b3b7",
+        "a8b8",
+        "b7a6",
+        "f6a6",
+        "c4a6",
+        "d7c5",
+        "a6d3",
+        "g8e7",
+        "b1d2",
+        "e7c6"
+       ],
+       "label": "6…Qf6"
+      }
+     }
+    ],
+    "better": {
+     "san": "Qf6",
+     "pv": [
+      "d8f6",
+      "f3b3",
+      "b8d7",
+      "b3b7",
+      "a8b8",
+      "b7a6",
+      "f6a6",
+      "c4a6",
+      "d7c5",
+      "a6d3",
+      "g8e7",
+      "b1d2",
+      "e7c6"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "d8",
+        "to": "f6",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 12,
+   "san": "Nf6",
+   "uci": "g8f6",
+   "cls": "mistake",
+   "label": "Mistake",
+   "color": "#ef8f2f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 288
+   },
+   "best": "Qf6",
+   "acc": 56.836392450698774
+  },
+  {
+   "story": {
+    "headline": "7.Qb3! The only good move here: every alternative is clearly worse.",
+    "points": [
+     {
+      "text": "Attacks the b7 pawn, which is undefended.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b7",
+         "tone": "danger",
+         "style": "ring"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "b3",
+         "to": "b7",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "The next best move, 7.Nd2, would drop White's winning chances from 74% to 60% (+1.14).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "b1",
+         "to": "d2",
+         "tone": "danger",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn1qkb1r/ppp2ppp/5n2/4p3/2B1P3/5Q2/PPP2PPP/RNB1K2R w KQkq - 2 7",
+       "pv": [
+        "b1d2",
+        "b8c6",
+        "c2c3",
+        "d8d7",
+        "a2a4",
+        "f8e7",
+        "e1g1",
+        "e8g8",
+        "f1d1",
+        "f8d8",
+        "a4a5",
+        "d7g4",
+        "f3g4",
+        "f6g4",
+        "b2b4",
+        "g4f6"
+       ],
+       "label": "7.Nd2"
+      }
+     }
+    ]
+   },
+   "ply": 13,
+   "san": "Qb3",
+   "uci": "f3b3",
+   "cls": "great",
+   "label": "Great",
+   "color": "#5b8fd6",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 292
+   },
+   "best": "Qb3",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "7…Qe7 is excellent: Black keeps 24% winning chances (best was Bc5, 25%).",
+    "points": [
+     {
+      "text": "Shores up the f7 pawn, which was under as much attack as it had defence (1 against 1).",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "f7",
+         "tone": "info",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 8.Qxb7 Qb4+ 9.Qxb4 Bxb4+ (+3.13).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "b3",
+         "to": "b7",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn2kb1r/ppp1qppp/5n2/4p3/2B1P3/1Q6/PPP2PPP/RNB1K2R w KQkq - 4 8",
+       "pv": [
+        "b3b7",
+        "e7b4",
+        "b7b4",
+        "f8b4",
+        "c1d2",
+        "b4d2",
+        "b1d2",
+        "a7a5",
+        "e1c1",
+        "a5a4",
+        "d2f1",
+        "a8a5",
+        "f2f3",
+        "e8e7",
+        "f1e3",
+        "g7g6",
+        "a2a3",
+        "b8c6",
+        "c4a2"
+       ],
+       "label": "8.Qxb7 Qb4+ 9.Qxb4 Bxb4+"
+      }
+     }
+    ],
+    "better": {
+     "san": "Bc5",
+     "pv": [
+      "f8c5",
+      "c4f7",
+      "e8e7",
+      "c1g5",
+      "b8c6",
+      "f7h5",
+      "g7g6",
+      "b1c3",
+      "c6d4",
+      "c3d5",
+      "e7d6",
+      "b3d3",
+      "f6d5",
+      "g5d8",
+      "d5b4",
+      "d3c4",
+      "h8d8"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "f8",
+        "to": "c5",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 14,
+   "san": "Qe7",
+   "uci": "d8e7",
+   "cls": "excellent",
+   "label": "Excellent",
+   "color": "#9cc24a",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 313
+   },
+   "best": "Bc5",
+   "acc": 93.73556616046503
+  },
+  {
+   "story": {
+    "headline": "8.Nc3 is an inaccuracy: White's winning chances go from 76% to 69%.",
+    "points": [
+     {
+      "text": "Black answers 8…c6, which takes b5 away from the White queen on b3.",
+      "tone": "danger",
+      "evidence": "engine",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b5",
+         "tone": "danger",
+         "style": "pit"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "c6",
+         "to": "b5",
+         "tone": "opportunity",
+         "thin": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Better was 8.Qxb7 (+3.13), which takes the pawn on b7.",
+      "tone": "opportunity",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "b3",
+         "to": "b7",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn2kb1r/ppp1qppp/5n2/4p3/2B1P3/1Q6/PPP2PPP/RNB1K2R w KQkq - 4 8",
+       "pv": [
+        "b3b7",
+        "e7b4",
+        "b7b4",
+        "f8b4",
+        "c1d2",
+        "b4d2",
+        "b1d2",
+        "a7a5",
+        "e1c1",
+        "a5a4",
+        "d2f1",
+        "a8a5",
+        "f2f3",
+        "e8e7",
+        "f1e3",
+        "g7g6",
+        "a2a3",
+        "b8c6",
+        "c4a2"
+       ],
+       "label": "8.Qxb7"
+      }
+     }
+    ],
+    "better": {
+     "san": "Qxb7",
+     "pv": [
+      "b3b7",
+      "e7b4",
+      "b7b4",
+      "f8b4",
+      "c1d2",
+      "b4d2",
+      "b1d2",
+      "a7a5",
+      "e1c1",
+      "a5a4",
+      "d2f1",
+      "a8a5",
+      "f2f3",
+      "e8e7",
+      "f1e3",
+      "g7g6",
+      "a2a3",
+      "b8c6",
+      "c4a2"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "b3",
+        "to": "b7",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 15,
+   "san": "Nc3",
+   "uci": "b1c3",
+   "cls": "inaccuracy",
+   "label": "Inaccuracy",
+   "color": "#f2c13a",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 221
+   },
+   "best": "Qxb7",
+   "acc": 73.87649105278149
+  },
+  {
+   "story": {
+    "headline": "8…c6 is the engine's top choice.",
+    "points": [
+     {
+      "text": "Protects the b7 pawn, which was hanging.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b7",
+         "tone": "info",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Takes b5 away from the White queen on b3.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b5",
+         "tone": "danger",
+         "style": "pit"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "c6",
+         "to": "b5",
+         "tone": "opportunity",
+         "thin": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 9.Bg5 Qc7 10.a4 h6 (+2.14).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "c1",
+         "to": "g5",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn2kb1r/pp2qppp/2p2n2/4p3/2B1P3/1QN5/PPP2PPP/R1B1K2R w KQkq - 0 9",
+       "pv": [
+        "c1g5",
+        "e7c7",
+        "a2a4",
+        "h7h6",
+        "g5f6",
+        "g7f6",
+        "e1g1",
+        "h8h7",
+        "c3d1",
+        "b8d7",
+        "b3f3",
+        "a7a5",
+        "d1e3",
+        "e8c8",
+        "f1d1",
+        "c8b8",
+        "h2h3",
+        "h6h5",
+        "e3f5",
+        "d7c5",
+        "d1d8",
+        "c7d8"
+       ],
+       "label": "9.Bg5 Qc7 10.a4 h6"
+      }
+     }
+    ]
+   },
+   "ply": 16,
+   "san": "c6",
+   "uci": "c7c6",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 214
+   },
+   "best": "c6",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "9.Bg5 is the engine's top choice.",
+    "points": [
+     {
+      "text": "Pins the knight on f6 to the queen.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "f6",
+         "tone": "danger",
+         "style": "ring"
+        }
+       ],
+       "arrows": [
+        {
+         "from": "g5",
+         "to": "e7",
+         "tone": "opportunity",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Develops the bishop, bringing another piece into the game.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 9…Na6 10.Bxf6 gxf6 11.Bxa6 (+2.75).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "b8",
+         "to": "a6",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn2kb1r/pp2qppp/2p2n2/4p1B1/2B1P3/1QN5/PPP2PPP/R3K2R b KQkq - 1 9",
+       "pv": [
+        "b8a6",
+        "g5f6",
+        "g7f6",
+        "c4a6",
+        "b7a6",
+        "e1g1",
+        "e7e6",
+        "f1d1",
+        "h7h5",
+        "d1d3",
+        "f8c5",
+        "a1d1",
+        "e6b3",
+        "a2b3",
+        "c5d4",
+        "c3e2",
+        "d4b2",
+        "e2g3"
+       ],
+       "label": "9…Na6 10.Bxf6 gxf6 11.Bxa6"
+      }
+     }
+    ]
+   },
+   "ply": 17,
+   "san": "Bg5",
+   "uci": "c1g5",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 275
+   },
+   "best": "Bg5",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "9…b5 is a mistake: Black's winning chances go from 27% to 14%.",
+    "points": [
+     {
+      "text": "White answers 10.Nxb5, which takes the pawn on b5.",
+      "tone": "danger",
+      "evidence": "engine",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b5",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Better was 9…Na6 (+2.75), which develops the knight, bringing another piece into the game.",
+      "tone": "opportunity",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "b8",
+         "to": "a6",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn2kb1r/pp2qppp/2p2n2/4p1B1/2B1P3/1QN5/PPP2PPP/R3K2R b KQkq - 1 9",
+       "pv": [
+        "b8a6",
+        "g5f6",
+        "g7f6",
+        "c4a6",
+        "b7a6",
+        "e1g1",
+        "e7e6",
+        "f1d1",
+        "h7h5",
+        "d1d3",
+        "f8c5",
+        "a1d1",
+        "e6b3",
+        "a2b3",
+        "c5d4",
+        "c3e2",
+        "d4b2",
+        "e2g3"
+       ],
+       "label": "9…Na6"
+      }
+     }
+    ],
+    "better": {
+     "san": "Na6",
+     "pv": [
+      "b8a6",
+      "g5f6",
+      "g7f6",
+      "c4a6",
+      "b7a6",
+      "e1g1",
+      "e7e6",
+      "f1d1",
+      "h7h5",
+      "d1d3",
+      "f8c5",
+      "a1d1",
+      "e6b3",
+      "a2b3",
+      "c5d4",
+      "c3e2",
+      "d4b2",
+      "e2g3"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "b8",
+        "to": "a6",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 18,
+   "san": "b5",
+   "uci": "b7b5",
+   "cls": "mistake",
+   "label": "Mistake",
+   "color": "#ef8f2f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 491
+   },
+   "best": "Na6",
+   "acc": 56.546156331673515
+  },
+  {
+   "story": {
+    "headline": "10.Nxb5!! A real sacrifice: White gives up material and the engine still rates it best.",
+    "points": [
+     {
+      "text": "Puts the knight on b5 where it can be taken.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b5",
+         "tone": "opportunity",
+         "style": "pulse"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Taking is too dangerous: Black's best reply is 10…Qb4+ 11.Qxb4 Bxb4+ 12.c3 instead (the engine rates it +4.80).",
+      "tone": "opportunity",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "e7",
+         "to": "b4",
+         "tone": "danger",
+         "dashed": false
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn2kb1r/p3qppp/2p2n2/1N2p1B1/2B1P3/1Q6/PPP2PPP/R3K2R b KQkq - 0 10",
+       "pv": [
+        "e7b4",
+        "b3b4",
+        "f8b4",
+        "c2c3",
+        "c6b5",
+        "c4b5",
+        "e8e7",
+        "c3b4",
+        "a7a6",
+        "b5c4",
+        "b8c6",
+        "a2a3",
+        "h8c8",
+        "a1c1",
+        "h7h6",
+        "g5f6",
+        "g7f6",
+        "e1d2",
+        "c6d4",
+        "c4d5",
+        "f6f5",
+        "c1c4"
+       ],
+       "label": "10…Qb4+ 11.Qxb4 Bxb4+ 12.c3"
+      }
+     },
+     {
+      "text": "Takes the pawn on b5.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b5",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Protects the bishop on c4, which was hanging.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "c4",
+         "tone": "info",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ]
+   },
+   "ply": 19,
+   "san": "Nxb5",
+   "uci": "c3b5",
+   "cls": "brilliant",
+   "label": "Brilliant",
+   "color": "#1fc0a8",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 480
+   },
+   "best": "Nxb5",
+   "acc": 97.78957156168234
+  },
+  {
+   "story": {
+    "headline": "10…cxb5 is an inaccuracy: Black's winning chances go from 15% to 9%.",
+    "points": [
+     {
+      "text": "White answers 11.Bxb5+, which takes the pawn on b5.",
+      "tone": "danger",
+      "evidence": "engine",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b5",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "After Bxb5+, White wins 1 point of material within 2 moves.",
+      "tone": "danger",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Better was 10…Qb4+ (+4.80), which gives check, so the reply is forced.",
+      "tone": "opportunity",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "e7",
+         "to": "b4",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn2kb1r/p3qppp/2p2n2/1N2p1B1/2B1P3/1Q6/PPP2PPP/R3K2R b KQkq - 0 10",
+       "pv": [
+        "e7b4",
+        "b3b4",
+        "f8b4",
+        "c2c3",
+        "c6b5",
+        "c4b5",
+        "e8e7",
+        "c3b4",
+        "a7a6",
+        "b5c4",
+        "b8c6",
+        "a2a3",
+        "h8c8",
+        "a1c1",
+        "h7h6",
+        "g5f6",
+        "g7f6",
+        "e1d2",
+        "c6d4",
+        "c4d5",
+        "f6f5",
+        "c1c4"
+       ],
+       "label": "10…Qb4+"
+      }
+     }
+    ],
+    "better": {
+     "san": "Qb4+",
+     "pv": [
+      "e7b4",
+      "b3b4",
+      "f8b4",
+      "c2c3",
+      "c6b5",
+      "c4b5",
+      "e8e7",
+      "c3b4",
+      "a7a6",
+      "b5c4",
+      "b8c6",
+      "a2a3",
+      "h8c8",
+      "a1c1",
+      "h7h6",
+      "g5f6",
+      "g7f6",
+      "e1d2",
+      "c6d4",
+      "c4d5",
+      "f6f5",
+      "c1c4"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "e7",
+        "to": "b4",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 20,
+   "san": "cxb5",
+   "uci": "c6b5",
+   "cls": "inaccuracy",
+   "label": "Inaccuracy",
+   "color": "#f2c13a",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 615
+   },
+   "best": "Qb4+",
+   "acc": 79.18415403325338
+  },
+  {
+   "story": {
+    "headline": "11.Bxb5+ is the engine's top choice.",
+    "points": [
+     {
+      "text": "Takes the pawn on b5.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b5",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "The bishop joins the attack: it now hits 2 squares around the Black king.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "e8",
+         "tone": "danger",
+         "style": "hatch"
+        },
+        {
+         "sq": "d7",
+         "tone": "danger",
+         "style": "hatch"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 11…Nbd7 12.O-O-O Rb8 13.Rxd7 (+7.22).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "b8",
+         "to": "d7",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "rn2kb1r/p3qppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/R3K2R b KQkq - 0 11",
+       "pv": [
+        "b8d7",
+        "e1c1",
+        "a8b8",
+        "d1d7",
+        "e7d7",
+        "b5d7",
+        "f6d7",
+        "b3h3",
+        "d7c5",
+        "h1d1",
+        "c5e6",
+        "g5d2",
+        "f8c5"
+       ],
+       "label": "11…Nbd7 12.O-O-O Rb8 13.Rxd7"
+      }
+     }
+    ]
+   },
+   "ply": 21,
+   "san": "Bxb5+",
+   "uci": "c4b5",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 722
+   },
+   "best": "Bxb5+",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "11…Nbd7 is the engine's top choice.",
+    "points": [
+     {
+      "text": "Clears the last piece between king and rook: castling queenside is now possible.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Develops the knight, bringing another piece into the game.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 12.O-O-O Rb8 13.Rxd7 Qxd7 (+7.30).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "e1",
+         "to": "c1",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "r3kb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/R3K2R w KQkq - 1 12",
+       "pv": [
+        "e1c1",
+        "a8b8",
+        "d1d7",
+        "e7d7",
+        "b5d7",
+        "f6d7",
+        "b3d5",
+        "f8c5",
+        "h1d1",
+        "e8g8",
+        "d5d7",
+        "c5f2",
+        "d1d3",
+        "b8c8",
+        "g5e7"
+       ],
+       "label": "12.O-O-O Rb8 13.Rxd7 Qxd7"
+      }
+     }
+    ]
+   },
+   "ply": 22,
+   "san": "Nbd7",
+   "uci": "b8d7",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 730
+   },
+   "best": "Nbd7",
+   "acc": 99.20372679642833
+  },
+  {
+   "story": {
+    "headline": "12.O-O-O! The only good move here: every alternative is clearly worse.",
+    "points": [
+     {
+      "text": "Castles: the king gets out of the centre and the rook joins the game.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "e1",
+         "to": "c1",
+         "tone": "info"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Connects the rooks: development is complete and they can now support each other.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "The next best move, 12.Bxf6, would drop White's winning chances from 94% to 79% (+3.56).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "g5",
+         "to": "f6",
+         "tone": "danger",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "r3kb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/R3K2R w KQkq - 1 12",
+       "pv": [
+        "g5f6",
+        "e7b4",
+        "b3b4",
+        "f8b4",
+        "c2c3",
+        "b4c3",
+        "b2c3",
+        "g7f6",
+        "e1c1",
+        "e8c8",
+        "d1d6",
+        "d7c5",
+        "d6c6",
+        "c8b7",
+        "c6f6",
+        "h8g8",
+        "b5c6",
+        "b7b8",
+        "c6d5"
+       ],
+       "label": "12.Bxf6"
+      }
+     }
+    ]
+   },
+   "ply": 23,
+   "san": "O-O-O",
+   "uci": "e1c1",
+   "cls": "great",
+   "label": "Great",
+   "color": "#5b8fd6",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 718
+   },
+   "best": "O-O-O",
+   "acc": 98.80029316379421
+  },
+  {
+   "story": {
+    "headline": "12…Rd8 is the engine's top choice.",
+    "points": [
+     {
+      "text": "The rook takes the open d-file, aiming at the rook on d1 behind the knight on d7.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d8",
+         "to": "d1",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": [
+        {
+         "kind": "file",
+         "index": 3,
+         "tone": "opportunity"
+        }
+       ]
+      }
+     },
+     {
+      "text": "Engine line: 13.Rxd7 Rxd7 14.Rd1 Qb4 (+7.32).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d1",
+         "to": "d7",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "3rkb1r/p2nqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR3R w k - 3 13",
+       "pv": [
+        "d1d7",
+        "d8d7",
+        "h1d1",
+        "e7b4",
+        "g5f6",
+        "g7f6",
+        "b5d7",
+        "e8d8",
+        "b3f7",
+        "f8e7",
+        "d7e6",
+        "d8c7",
+        "a2a3",
+        "b4c5",
+        "d1d5",
+        "c5f2",
+        "f7e7",
+        "c7b8"
+       ],
+       "label": "13.Rxd7 Rxd7 14.Rd1 Qb4"
+      }
+     }
+    ]
+   },
+   "ply": 24,
+   "san": "Rd8",
+   "uci": "a8d8",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 732
+   },
+   "best": "Rb8",
+   "acc": 98.60613559321584
+  },
+  {
+   "story": {
+    "headline": "13.Rxd7 is the engine's top choice.",
+    "points": [
+     {
+      "text": "Takes the knight on d7.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "d7",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "The rook reaches the seventh rank, where 4 pawns sit and the king is cut off on the back rank.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": [
+        {
+         "kind": "rank",
+         "index": 6,
+         "tone": "opportunity"
+        }
+       ]
+      }
+     },
+     {
+      "text": "Engine line: 13…Nxd7 14.Bxe7 Bxe7 15.Bxd7+ (+7.25).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "f6",
+         "to": "d7",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "3rkb1r/p2Rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R b k - 0 13",
+       "pv": [
+        "f6d7",
+        "g5e7",
+        "f8e7",
+        "b5d7",
+        "d8d7",
+        "b3b8",
+        "d7d8",
+        "b8b5",
+        "e8f8",
+        "b5e5",
+        "h7h5",
+        "h1d1",
+        "h8h6",
+        "d1d8",
+        "e7d8",
+        "e5b8",
+        "f8e8",
+        "b8b5",
+        "e8f8"
+       ],
+       "label": "13…Nxd7 14.Bxe7 Bxe7 15.Bxd7+"
+      }
+     }
+    ]
+   },
+   "ply": 25,
+   "san": "Rxd7",
+   "uci": "d1d7",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 725
+   },
+   "best": "Rxd7",
+   "acc": 99.3084649271028
+  },
+  {
+   "story": {
+    "headline": "13…Rxd7 is excellent: Black keeps 6% winning chances (best was Nxd7, 6%).",
+    "points": [
+     {
+      "text": "Takes the rook on d7.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "d7",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Protects the a7 pawn, which was hanging.",
+      "tone": "info",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "a7",
+         "tone": "info",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 14.Rd1 Qe6 15.Bxf6 gxf6 (+7.67).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "h1",
+         "to": "d1",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+       "pv": [
+        "h1d1",
+        "e7e6",
+        "g5f6",
+        "g7f6",
+        "b5d7",
+        "e6d7",
+        "b3b8",
+        "e8e7",
+        "d1d7",
+        "e7d7",
+        "c1b1",
+        "h8g8",
+        "g2g3",
+        "f8c5",
+        "b8b7",
+        "d7e6",
+        "b7d5",
+        "e6e7",
+        "d5c5",
+        "e7e6"
+       ],
+       "label": "14.Rd1 Qe6 15.Bxf6 gxf6"
+      }
+     }
+    ],
+    "better": {
+     "san": "Nxd7",
+     "pv": [
+      "f6d7",
+      "g5e7",
+      "f8e7",
+      "b5d7",
+      "d8d7",
+      "b3b8",
+      "d7d8",
+      "b8b5",
+      "e8f8",
+      "b5e5",
+      "h7h5",
+      "h1d1",
+      "h8h6",
+      "d1d8",
+      "e7d8",
+      "e5b8",
+      "f8e8",
+      "b8b5",
+      "e8f8"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "f6",
+        "to": "d7",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 26,
+   "san": "Rxd7",
+   "uci": "d8d7",
+   "cls": "excellent",
+   "label": "Excellent",
+   "color": "#9cc24a",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 767
+   },
+   "best": "Nxd7",
+   "acc": 96.13736013542514
+  },
+  {
+   "story": {
+    "headline": "14.Rd1! The only good move here: every alternative is clearly worse.",
+    "points": [
+     {
+      "text": "The rook takes the open d-file, aiming at the rook on d7.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d1",
+         "to": "d7",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": [
+        {
+         "kind": "file",
+         "index": 3,
+         "tone": "opportunity"
+        }
+       ]
+      }
+     },
+     {
+      "text": "The next best move, 14.Bxf6, would drop White's winning chances from 94% to 73% (+2.76).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "g5",
+         "to": "f6",
+         "tone": "danger",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "4kb1r/p2rqppp/5n2/1B2p1B1/4P3/1Q6/PPP2PPP/2K4R w k - 0 14",
+       "pv": [
+        "g5f6",
+        "e7f6",
+        "h1d1",
+        "f8d6",
+        "b3h3",
+        "f6e7",
+        "c2c4",
+        "e8g8",
+        "h3d7",
+        "e7g5",
+        "c1b1",
+        "d6c5",
+        "d7d5",
+        "c5f2",
+        "c4c5",
+        "h7h6",
+        "c5c6",
+        "g5g2",
+        "a2a3",
+        "f2c5"
+       ],
+       "label": "14.Bxf6"
+      }
+     }
+    ]
+   },
+   "ply": 27,
+   "san": "Rd1",
+   "uci": "h1d1",
+   "cls": "great",
+   "label": "Great",
+   "color": "#5b8fd6",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 785
+   },
+   "best": "Rd1",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "14…Qe6 is good: Black keeps 1% winning chances (best was Qd6, 5%).",
+    "points": [
+     {
+      "text": "A quiet move: its point shows up in the engine's line below.",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 15.Bxd7+ Qxd7 16.Qb8+ Ke7 (+11.58).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "b5",
+         "to": "d7",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "4kb1r/p2r1ppp/4qn2/1B2p1B1/4P3/1Q6/PPP2PPP/2KR4 w k - 2 15",
+       "pv": [
+        "b5d7",
+        "e6d7",
+        "b3b8",
+        "e8e7",
+        "b8e5",
+        "e7d8",
+        "e5b8",
+        "d8e7",
+        "d1d7",
+        "e7d7",
+        "g5f4",
+        "f6e4",
+        "b8b7",
+        "d7d8"
+       ],
+       "label": "15.Bxd7+ Qxd7 16.Qb8+ Ke7"
+      }
+     }
+    ],
+    "better": {
+     "san": "Qd6",
+     "pv": [
+      "e7d6",
+      "b5d7",
+      "f6d7",
+      "b3b7",
+      "d6d1",
+      "c1d1",
+      "f7f6",
+      "g5d2",
+      "f8c5",
+      "b7c8",
+      "e8f7",
+      "c8d7",
+      "f7g6",
+      "c2c3",
+      "c5f2",
+      "d1c2",
+      "f2b6",
+      "a2a4",
+      "h8d8"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "e7",
+        "to": "d6",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 28,
+   "san": "Qe6",
+   "uci": "e7e6",
+   "cls": "good",
+   "label": "Good",
+   "color": "#86a96a",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 1158
+   },
+   "best": "Qd6",
+   "acc": 83.98085562004245
+  },
+  {
+   "story": {
+    "headline": "15.Bxd7+ is the engine's top choice.",
+    "points": [
+     {
+      "text": "Takes the rook on d7.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "d7",
+         "tone": "opportunity",
+         "style": "ring"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Engine line: 15…Qxd7 16.Qb8+ Ke7 17.Qxe5+ (+10.91).",
+      "tone": "info",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "e6",
+         "to": "d7",
+         "tone": "info",
+         "dashed": true
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "4kb1r/p2B1ppp/4qn2/4p1B1/4P3/1Q6/PPP2PPP/2KR4 b k - 0 15",
+       "pv": [
+        "e6d7",
+        "b3b8",
+        "e8e7",
+        "b8e5",
+        "e7d8",
+        "e5b8",
+        "d8e7",
+        "d1d7",
+        "e7d7",
+        "b8b7",
+        "d7d8",
+        "e4e5",
+        "f8e7",
+        "g5d2",
+        "e7c5",
+        "e5f6",
+        "c5f2"
+       ],
+       "label": "15…Qxd7 16.Qb8+ Ke7 17.Qxe5+"
+      }
+     }
+    ]
+   },
+   "ply": 29,
+   "san": "Bxd7+",
+   "uci": "b5d7",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "cp",
+    "cp": 1091
+   },
+   "best": "Bxd7+",
+   "acc": 98.30132523329948
+  },
+  {
+   "story": {
+    "headline": "15…Nxd7 is a blunder: Black's winning chances go from 2% to 0%. It allows mate in 2.",
+    "points": [
+     {
+      "text": "White answers 16.Qb8+: check, and Black has only one legal reply.",
+      "tone": "danger",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Better was 15…Qxd7 (+10.91), which takes the bishop on d7.",
+      "tone": "opportunity",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "e6",
+         "to": "d7",
+         "tone": "opportunity"
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "4kb1r/p2B1ppp/4qn2/4p1B1/4P3/1Q6/PPP2PPP/2KR4 b k - 0 15",
+       "pv": [
+        "e6d7",
+        "b3b8",
+        "e8e7",
+        "b8e5",
+        "e7d8",
+        "e5b8",
+        "d8e7",
+        "d1d7",
+        "e7d7",
+        "b8b7",
+        "d7d8",
+        "e4e5",
+        "f8e7",
+        "g5d2",
+        "e7c5",
+        "e5f6",
+        "c5f2"
+       ],
+       "label": "15…Qxd7"
+      }
+     }
+    ],
+    "better": {
+     "san": "Qxd7",
+     "pv": [
+      "e6d7",
+      "b3b8",
+      "e8e7",
+      "b8e5",
+      "e7d8",
+      "e5b8",
+      "d8e7",
+      "d1d7",
+      "e7d7",
+      "b8b7",
+      "d7d8",
+      "e4e5",
+      "f8e7",
+      "g5d2",
+      "e7c5",
+      "e5f6",
+      "c5f2"
+     ],
+     "marks": {
+      "squares": [],
+      "arrows": [
+       {
+        "from": "e6",
+        "to": "d7",
+        "tone": "opportunity"
+       }
+      ],
+      "badges": [],
+      "links": [],
+      "icons": [],
+      "bands": []
+     }
+    }
+   },
+   "ply": 30,
+   "san": "Nxd7",
+   "uci": "f6d7",
+   "cls": "blunder",
+   "label": "Blunder",
+   "color": "#e0362f",
+   "evalAfter": {
+    "kind": "mate",
+    "moves": 2,
+    "winner": "w"
+   },
+   "best": "Qxd7",
+   "acc": 92.35381470158207
+  },
+  {
+   "story": {
+    "headline": "16.Qb8+!! A real sacrifice: White gives up material and the engine still rates it best.",
+    "points": [
+     {
+      "text": "Puts the queen on b8 where it can be taken.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "b8",
+         "tone": "opportunity",
+         "style": "pulse"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     },
+     {
+      "text": "Black can take, but after 16…Nxb8 17.Rd8# it's checkmate.",
+      "tone": "opportunity",
+      "evidence": "engine",
+      "marks": {
+       "squares": [],
+       "arrows": [
+        {
+         "from": "d7",
+         "to": "b8",
+         "tone": "danger",
+         "dashed": false
+        }
+       ],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      },
+      "line": {
+       "fen": "1Q2kb1r/p2n1ppp/4q3/4p1B1/4P3/8/PPP2PPP/2KR4 b k - 1 16",
+       "pv": [
+        "d7b8",
+        "d1d8"
+       ],
+       "label": "16…Nxb8 17.Rd8#"
+      }
+     },
+     {
+      "text": "Check, and Black has only one legal reply.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ]
+   },
+   "ply": 31,
+   "san": "Qb8+",
+   "uci": "b3b8",
+   "cls": "brilliant",
+   "label": "Brilliant",
+   "color": "#1fc0a8",
+   "evalAfter": {
+    "kind": "mate",
+    "moves": 1,
+    "winner": "w"
+   },
+   "best": "Qb8+",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "16…Nxb8 was the only legal move.",
+    "points": []
+   },
+   "ply": 32,
+   "san": "Nxb8",
+   "uci": "d7b8",
+   "cls": "forced",
+   "label": "Forced",
+   "color": "#9aa3ad",
+   "evalAfter": {
+    "kind": "mate",
+    "moves": 1,
+    "winner": "w"
+   },
+   "best": "Nxb8",
+   "acc": 99.9999
+  },
+  {
+   "story": {
+    "headline": "17.Rd8# is the engine's top choice.",
+    "points": [
+     {
+      "text": "Checkmate.",
+      "tone": "opportunity",
+      "evidence": "rules",
+      "marks": {
+       "squares": [
+        {
+         "sq": "d8",
+         "tone": "opportunity",
+         "style": "fill"
+        }
+       ],
+       "arrows": [],
+       "badges": [],
+       "links": [],
+       "icons": [],
+       "bands": []
+      }
+     }
+    ]
+   },
+   "ply": 33,
+   "san": "Rd8#",
+   "uci": "d1d8",
+   "cls": "best",
+   "label": "Best",
+   "color": "#86b93f",
+   "evalAfter": {
+    "kind": "mate",
+    "moves": 0,
+    "winner": "w"
+   },
+   "best": "Rd8#",
+   "acc": 99.9999
+  }
+ ]
+}
